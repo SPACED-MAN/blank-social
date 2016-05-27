@@ -7,7 +7,7 @@ This is an effort to simplify the process of displaying a social feed on your we
 
 Took a simple, no-frills MVC approach.
 
-[TO DO More details to come]
+[TO DO: More details to come]
 
 
 INSTALLATION
