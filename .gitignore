@@ -64,3 +64,4 @@ db_backups/
 ############
 
 *.json
+config.php
