@@ -3,22 +3,23 @@
 INTRODUCTION
 ------------
 
-This is an effort to simplify the process of displaying a social feed on your website or app. It also offers a simple caching solution to limit the 3rd party traffic.
+A simple, no-frills MVC approach to simplifying/normalizing the process of displaying a social networking feed on your website or app. It also provides a simple caching mechanism for your feed results to limit traffic to 3rd parties.
 
-Took a simple, no-frills MVC approach.
-
-[TO DO: More details to come]
+Currently supports:
+- Facebook page feeds
+- Twitter user feeds
+- Instagram user feeds
 
 
 INSTALLATION
 ------------
- 
+
 N/A (TO DO)
 
 
 CONFIGURATION/USAGE
 -------------
- 
+
 N/A (TO DO)
 
 
