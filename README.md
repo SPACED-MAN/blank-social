@@ -24,7 +24,7 @@ A simple, no-frills MVC approach to simplifying/normalizing the process of displ
 
 - You're frustrated with all the variation in social API services; you want a normalized solution
 - You want a solution that's simple, without any force-fed CSS or bells and whistles; you just want simple information (HTML or JSON) that you can style yourself
-- You want a lightweight, efficient solution; you want to limit traffic to 3rd parties by caching your social results
+- You want a lightweight solution; you want to limit traffic to 3rd parties by caching your social results
 
 
 INSTALLATION
