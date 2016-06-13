@@ -14,9 +14,9 @@ A simple, no-frills MVC approach to simplifying/normalizing the process of displ
 - Instagram user feeds
 
 
-### Supported Environments: 
+### Supported Languages: 
 
-- LAMP
+- PHP
 - [more to come]
 
 
