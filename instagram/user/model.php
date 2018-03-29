@@ -25,7 +25,7 @@ function ig_user_refresh_cache($ig_user_cache_file, $social_cache_lifetime = 24,
   if( !file_exists($ig_user_cache_file) || filemtime($ig_user_cache_file) < time() - ($social_cache_lifetime * 3600) ) {
 
     $ig_ch = curl_init();
-    curl_setopt($ig_ch, CURLOPT_URL, 'https://api.instagram.com/v1/users/' . $ig_user_id . '/media/recent/?access_token=' . $ig_app_token);
+    curl_setopt($ig_ch, CURLOPT_URL, 'https://api.instagram.com/v1/users/' . $ig_user_id . '/media/recent/?access_token=' . $ig_app_token . '&count=' . $social_cache_limit);
     curl_setopt($ig_ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ig_ch, CURLOPT_TIMEOUT, 20);
     $ig_user_content = curl_exec($ig_ch);
